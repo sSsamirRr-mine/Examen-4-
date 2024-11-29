@@ -1,0 +1,162 @@
+@media(max-width:768px){
+    header>nav{
+        padding: 40px;
+    }
+
+    header>.nav2{
+        flex-direction: column;
+        width: 600px;
+        text-align: center;
+    }
+
+    .nav2>p{
+        width: 457px;
+    }
+
+    main>.one>.onel{
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main>.two{
+        padding: 40px;
+    }
+
+    .three{
+        padding: 40px;
+        height: 200px;
+    }
+
+    .three>div>h2{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        
+    }
+
+    footer>div{
+        padding: 40px;
+        gap: 477px;
+        max-width: 768px;
+    }
+
+    
+
+}
+
+
+@media(max-width:375px){
+
+    .nav1>ul{
+        display: none;
+        
+    }
+
+
+
+    .nav2>h1{
+        width: 327px;
+        height: 40px;
+
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 40px;
+
+    }
+
+    header>.nav2{
+        flex-direction: column;
+        width: 327px;
+        text-align: center;
+        justify-content: space-evenly;
+        max-width: 375px;
+        padding: 0;
+        margin: 0;
+    
+    
+    }
+
+    .nav2>p{
+        width: 327px;
+font-size: 15px;
+font-weight: 600;
+line-height: 28px;
+
+    }
+
+    main>.one>.onel{
+        flex-wrap:wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        width: 375px;
+    }
+
+    .one>h2{
+
+font-size: 32px;
+font-weight: 700;
+line-height: 32px;
+
+    }
+
+    main>.two{
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+
+    main>.two>ul{
+        width: 327px;
+        height: 373.51px;
+        gap: 0;
+        display: block;
+    }
+
+    main>.two>ul>li>img{
+        width: 146.56px        ;
+height: 19.81px;
+        
+    }
+
+    main>.two>ul{
+        flex-direction: column;
+    }
+
+    .three{
+        padding: 40px;
+        height: 200px;
+    }
+
+    .three>div>h2{
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 32px;
+        
+    }
+
+    .three>div{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        text-align: center;
+    }
+
+    footer>div{
+        padding: 40px;
+        /* gap: 7px; */
+justify-content: center;
+align-items: center;
+        max-width: 345px;
+        flex-direction: column;
+    }
+
+    .footer{
+       height: 432px;
+
+
+    }   
+
+}
